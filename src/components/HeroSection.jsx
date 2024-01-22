@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-
 import backgroundImage from '../assets/background.jpg';
 
 const HeroContainer = styled.header`
@@ -16,11 +15,19 @@ const HeroContainer = styled.header`
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
+
+    @media (max-width: 768px) {
+      font-size: 36px;
+    }
   }
 
   p {
     font-size: 20px;
     color: #555;
+
+    @media (max-width: 768px) {
+      font-size: 16px;
+    }
   }
 `;
 

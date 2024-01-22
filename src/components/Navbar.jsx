@@ -47,6 +47,17 @@ const NavbarContainer = styled.nav`
       }
     }
   }
+
+  @media (max-width: 768px) {
+    .navbar-nav {
+      flex-direction: column;
+
+      .nav-item {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+    }
+  }
 `;
 
 const Navbar = () => {

@@ -1,8 +1,7 @@
-// ContactSection.jsx
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import backgroundImage from '../assets/Contact_back.jpg';
-import { postFormData } from './api'; // Updated import statement
+import { postFormData } from './api';
 
 const ContactContainer = styled.section`
   padding: 120px 0;

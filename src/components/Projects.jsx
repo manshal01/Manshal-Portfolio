@@ -16,6 +16,10 @@ const ServicesContainer = styled.section`
     color: #333;
     margin-bottom: 50px;
     text-align: center;
+
+    @media (max-width: 768px) {
+      font-size: 28px;
+    }
   }
 
   .row {
@@ -29,6 +33,11 @@ const ServicesContainer = styled.section`
     margin-bottom: 30px;
     flex: 0 0 30%;
     max-width: 30%;
+
+    @media (max-width: 768px) {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
   }
 
   .card {
@@ -93,8 +102,7 @@ const Projects = () => {
                   <h5>ManshalFitLab(Clone)</h5>
                 </a>
                 <p className="card-text">
-                  This is a Healthfy website that deals with gyms exercises and
-                  health maintenance.
+                  This is a Healthfy website that deals with gyms exercises and health maintenance.
                 </p>
               </div>
             </div>
@@ -103,10 +111,7 @@ const Projects = () => {
           {/* Project 2 */}
           <div className="col-lg-4">
             <div className="card">
-              <img
-                src={Project2}
-                alt="Project 2 Preview"
-              />
+              <img src={Project2} alt="Project 2 Preview" />
               <div className="card-body">
                 <a
                   href="https://github.com/manshal01/InfersyncPDFcompare/blob/main/README.md"
@@ -117,8 +122,7 @@ const Projects = () => {
                   <h5>Infersync PDF Compare</h5>
                 </a>
                 <p className="card-text">
-                  This project involves the comparison of input PDFs and
-                  identifies similarities, generating a resultant PDF.
+                  This project involves the comparison of input PDFs and identifies similarities, generating a resultant PDF.
                 </p>
               </div>
             </div>
@@ -127,10 +131,7 @@ const Projects = () => {
           {/* Project 3 */}
           <div className="col-lg-4">
             <div className="card">
-              <img
-                src={Project3}
-                alt="Project 3 Preview"
-              />
+              <img src={Project3} alt="Project 3 Preview" />
               <div className="card-body">
                 <a
                   href="https://github.com/manshal01/Fish-detection"
@@ -141,8 +142,7 @@ const Projects = () => {
                   <h5>Fish Detection </h5>
                 </a>
                 <p className="card-text">
-                  It is a machine learning python project that predicts the
-                  species of an input image.
+                  It is a machine learning python project that predicts the species of an input image.
                 </p>
               </div>
             </div>
@@ -151,10 +151,7 @@ const Projects = () => {
           {/* Project 4 */}
           <div className="col-lg-4">
             <div className="card">
-              <img
-                src={Project4}
-                alt="Project 4 Preview"
-              />
+              <img src={Project4} alt="Project 4 Preview" />
               <div className="card-body">
                 <a
                   href="https://github.com/manshal01/OIBSIP-Calculator"
@@ -172,10 +169,7 @@ const Projects = () => {
           {/* Project 5 */}
           <div className="col-lg-4">
             <div className="card">
-              <img
-                src={Project5}
-                alt="Project 5 Preview"
-              />
+              <img src={Project5} alt="Project 5 Preview" />
               <div className="card-body">
                 <a
                   href="https://github.com/manshal01"
