@@ -4,14 +4,16 @@ Deploy Link: manshal-bhagat-portfolio.netlify.app
 Here's an example of a responsive modern portfolio website using React.js with Vite and Bootstrap. This code includes the navbar, hero section, about section, services, contact, and footer.
 
 
-![Screenshot (20)](https://github.com/manshal01/Personal-Portfolio-website/assets/93897590/e04240d0-790e-4a42-b825-361cbf180a8f)
+![image](https://github.com/manshal01/Manshal-Portfolio/assets/93897590/083d382d-2e16-47d2-92df-672908462754)
+
 
 
 
 To get started, make sure you have Node.js installed on your computer. Then, create a new directory for your project and navigate to it in your terminal. Run the following commands to set up the project:
 
 
-![image](https://github.com/manshal01/Personal-Portfolio-website/assets/93897590/a5747c5d-dcfd-4b8d-9d25-a369fa6ad389)
+![image](https://github.com/manshal01/Manshal-Portfolio/assets/93897590/66466494-9a80-4873-972c-b708f7d4c4c1)
+
 
 
 Next, replace the content of the src/Main.js file with the following code:
@@ -20,7 +22,8 @@ Install all depencies:
 
 
 
-![image](https://github.com/manshal01/Personal-Portfolio-website/assets/93897590/29cfa3e1-2936-490d-9e8a-1dc5d345a6f9)
+![image](https://github.com/manshal01/Manshal-Portfolio/assets/93897590/4359b17a-bdf2-4076-a5e6-6e88f271ce6d)
+
 
 
 
@@ -77,7 +80,7 @@ Copy code
   </div>
 </section>
 
-![image](https://github.com/manshal01/Personal-Portfolio-website/assets/93897590/7bbeb6bb-014b-4e17-8fae-5ddae5297586)
+
 
 
 The "Services" section is defined with the class services-section. It contains a title and a grid layout of cards representing different services (Web Design, Web Development, Graphic Design).
@@ -93,7 +96,7 @@ The "Contact Me" section is defined with the class contact-section. It contains 
 jsx
 Copy code
 
-![image](https://github.com/manshal01/Personal-Portfolio-website/assets/93897590/380722c9-514e-45bd-aca6-2af72da8500f)
+
 
 
 <footer className="footer-section">
